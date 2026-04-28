@@ -1,0 +1,73 @@
+<svg width="115" height="115" viewBox="0 0 115 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="99" height="99" fill="white" stroke="black"/>
+<rect x="4.5" y="5.5" width="90" height="90" rx="9.5" fill="#D9D9D9"/>
+<rect x="4.5" y="5.5" width="90" height="90" rx="9.5" stroke="black"/>
+<path d="M15 8.5H88C91.5899 8.5 94.5 11.4101 94.5 15V86C94.5 91.2467 90.2467 95.5 85 95.5H14C10.4101 95.5 7.5 92.5899 7.5 89V16C7.5 11.8579 10.8579 8.5 15 8.5Z" fill="black" stroke="black"/>
+<mask id="path-4-inside-1_918_1236" fill="white">
+<path d="M100 0L114.142 14.1421V114.142L100 100V0Z"/>
+</mask>
+<path d="M100 0L114.142 14.1421V114.142L100 100V0Z" fill="#D9D9D9"/>
+<path d="M114.142 14.1421L114.849 14.8492V13.8492L114.142 13.1421V14.1421ZM114.142 114.142V115.142L114.849 115.849V114.849L114.142 114.142ZM100 0V1L114.142 15.1421V14.1421V13.1421L100 -1V0ZM114.142 14.1421L113.435 13.435V113.435L114.142 114.142L114.849 114.849V14.8492L114.142 14.1421ZM114.142 114.142V113.142L100 99V100V101L114.142 115.142V114.142Z" fill="black" mask="url(#path-4-inside-1_918_1236)"/>
+<rect x="0.353553" y="0.853553" width="9" height="28" rx="4.5" transform="matrix(0.707107 0.707107 0 1 103.286 12.9321)" stroke="black"/>
+<path d="M105.657 18.157C106.829 19.3286 107.778 21.6215 107.778 23.2783V45.3779C107.778 45.875 107.493 45.9931 107.142 45.6417C105.15 43.65 103.536 39.7526 103.536 36.9361V19.0357C103.536 17.3788 104.485 16.9854 105.657 18.157Z" fill="black" stroke="black"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 55.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 56.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.303 59.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.303 59.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 62.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 63.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 50.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 51.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.303 54.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.303 54.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 57.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 58.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 60.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 61.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.303 64.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.303 64.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 67.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 68.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 65.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 66.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.303 69.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.303 69.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 72.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 73.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 70.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 71.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.303 74.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.303 74.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 77.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 78.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 75.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 76.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.303 79.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.303 79.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 82.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 83.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 80.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 81.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.303 84.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.303 84.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 87.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 88.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 85.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 86.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.303 89.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.303 89.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 92.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 93.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<mask id="path-56-inside-2_918_1236" fill="white">
+<path d="M0 100H100L114.142 114.142H14.1421L0 100Z"/>
+</mask>
+<path d="M0 100H100L114.142 114.142H14.1421L0 100Z" fill="#D9D9D9"/>
+<path d="M14.1421 114.142H13.1421L13.8492 114.849H14.8492L14.1421 114.142ZM114.142 114.142L113.435 113.435H13.435L14.1421 114.142L14.8492 114.849H114.849L114.142 114.142ZM14.1421 114.142H15.1421L1 100H0H-1L13.1421 114.142H14.1421Z" fill="black" mask="url(#path-56-inside-2_918_1236)"/>
+<line y1="-0.25" x2="79" y2="-0.25" transform="matrix(1 0 0.707107 0.707107 28.0713 107.071)" stroke="black" stroke-width="0.5"/>
+<line y1="-0.5" x2="19" y2="-0.5" transform="matrix(0.707107 0.707107 -1 0 20 100)" stroke="black"/>
+<line y1="-0.25" x2="9" y2="-0.25" transform="matrix(0.707107 0.707107 -1 0 67.0713 107.071)" stroke="black" stroke-width="0.5"/>
+<line y1="-0.25" x2="10" y2="-0.25" transform="matrix(0.707107 0.707107 -1 0 80 100)" stroke="black" stroke-width="0.5"/>
+<line y1="-0.25" x2="10" y2="-0.25" transform="matrix(0.707107 0.707107 -1 0 40 100)" stroke="black" stroke-width="0.5"/>
+<path d="M13.3012 107.034C13.2319 106.781 13.1789 106.542 13.1279 106.319C13.0772 106.098 13.028 105.89 12.9658 105.707C12.5141 104.38 14.1709 103.806 16.6667 104.424C19.1625 105.043 21.5522 106.621 22.0044 107.948C22.2539 108.681 22.8796 109.907 22.7509 110.796C22.6873 111.235 22.4386 111.574 21.8895 111.725C21.3449 111.874 20.4786 111.846 19.1131 111.507C17.5901 111.129 16.5045 110.672 15.7159 110.191C14.9244 109.709 14.3891 109.178 14.0161 108.633C13.6424 108.087 13.44 107.539 13.3012 107.034Z" fill="#E17101" stroke="black" stroke-width="0.5"/>
+<circle cx="4" cy="4" r="3.75" transform="matrix(1 0 0.707107 0.707107 11.3638 106.364)" fill="#E17101" stroke="black" stroke-width="0.5"/>
+</svg>

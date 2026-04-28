@@ -1,0 +1,203 @@
+{
+  "nav": {
+    "home": "Start",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "theme": {
+    "toggle": "Design umschalten",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "language": {
+    "toggle": "Sprache ändern",
+    "english": "English",
+    "french": "Français",
+    "german": "Deutsch"
+  },
+  "hero": {
+    "hello": "Hallo, ich bin",
+    "name": "Baptiste",
+    "title": "Frontend-Ingenieur | Fullstack-Entwickler",
+    "description": "Leidenschaftlich für UI/UX, Mobile- und Webentwicklung. Spezialisiert auf TypeScript, ReactJS, React Native & Expo. Derzeit an L'Oréal GPT bei SFEIR.",
+    "cta": "Kontakt",
+    "viewWorks": "Projekte ansehen",
+    "craft": "Ich erstelle digitale Erlebnisse mit Fokus auf",
+    "animations": "Animationen",
+    "ux": "UX",
+    "micro-interactions": "Mikro-Interaktionen"
+  },
+  "about": {
+    "title": "Über Mich",
+    "paragraph1": "Frontend-Ingenieur bei SFEIR, der an hochmodernen Projekten für große Kunden wie L'Oréal, Décathlon und Adeo arbeitet. Ich spezialisiere mich auf die Entwicklung ansprechender Benutzererfahrungen mit fesselnden Animationen und Leistungsoptimierung.",
+    "paragraph2": "Ich führe mein eigenes Unternehmen und bin für Website-Projekte für kleine Unternehmen und Startups verfügbar. Lassen Sie uns gemeinsam etwas Großartiges schaffen!",
+    "downloadCV": "Lebenslauf Herunterladen",
+    "profileImage": "Profilbild"
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "loreal": {
+      "company": "L'Oréal x SFEIR",
+      "position": "Frontend-Ingenieur",
+      "period": "Mai 2025 - Gegenwart",
+      "description": "Entwicklung und Verbesserung von L'Oréal GPT, einem hochmodernen KI-Tool. Hinzufügung neuer Funktionen, Leistungsoptimierung und Belebung der Benutzeroberfläche mit fesselnden Animationen.",
+      "focus": "Fokus auf die Schaffung nahtloser Benutzererfahrungen mit ansprechenden Animationen und sicherer Plattformentwicklung."
+    },
+    "sfeir": {
+      "company": "Decathlon & Adeo (über SFEIR)",
+      "position": "Fullstack-Entwickler",
+      "period": "Sept 2023 - Feb 2025",
+      "description": "Beitrag zu wirkungsvollen Projekten für große Kunden. Spezialisiert auf die Erstellung flüssiger, animierter Benutzeroberflächen, die Benutzer begeistern.",
+      "achievements": [
+        "Bruno Open-Source-Tool-Entwicklung mit animierten UI-Komponenten",
+        "Legacy-Tool-Neuentwicklung für globales Zollmanagement mit modernen Animationen",
+        "Beauty Tech-Plattform mit Fokus auf Barrierefreiheit und fließende Interaktionen"
+      ]
+    },
+    "welovedevs": {
+      "company": "WeLoveDevs",
+      "position": "Duales Studium Web-Entwickler",
+      "period": "Aug 2021 - Sept 2023",
+      "description": "2-jähriges duales Studium während meines Masters. Entwicklung interaktiver Webanwendungen mit flüssigen Animationen und Mikro-Interaktionen."
+    },
+    "willemse": {
+      "company": "Willemse France",
+      "position": "Duales Studium Entwickler",
+      "period": "Sept 2020 - Aug 2021",
+      "description": "1-jähriges duales Studium mit Fokus auf Webentwicklung und Verbesserung digitaler Tools."
+    }
+  },
+  "projects": {
+    "title": "Projekte",
+    "projectImage": "Projektbild",
+    "loreal": {
+      "title": "L'Oréal GPT Plattform",
+      "description": "Hochmodernes KI-Tool für L'Oréal mit Fokus auf Sicherheit, Barrierefreiheit und ansprechende Animationen. Frontend-Entwicklung und UI-Verbesserung."
+    },
+    "bruno": {
+      "title": "Bruno API-Test-Tool",
+      "description": "Beitrag zum Open-Source-Projekt Bruno bei Adeo, um Teams bei der Migration von Postman mit verbesserter Entwicklererfahrung zu helfen."
+    },
+    "viewProject": "Projekt Ansehen"
+  },
+  "designShowcase": {
+    "title": "Design Das Konvertiert",
+    "description": "Ich programmiere nicht nur - ich entwerfe Erfahrungen, die Aufmerksamkeit erregen und Ergebnisse erzielen. Sehen Sie, wie ich langweilige, Standard-Websites in ansprechende, unvergessliche Erfahrungen verwandle, die Unternehmen dabei helfen, sich von ihren Konkurrenten abzuheben."
+  },
+  "beforeAfter": {
+    "before": "Vorher",
+    "after": {
+      "label": "Nachher",
+      "brandName": "INNOVIEREN",
+      "headline": "Verwandeln Sie Ihre Vision In Realität",
+      "description": "Erleben Sie den Unterschied mit hochmodernem Design und nahtlosen Interaktionen, die Ihr Publikum fesseln und bedeutungsvolles Engagement fördern.",
+      "primaryCta": "Starten Sie Ihre Reise",
+      "secondaryCta": "Portfolio Ansehen"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Ich habe mein eigenes Unternehmen und bin für Website-Projekte für kleine Unternehmen verfügbar. Lassen Sie uns Ihr Projekt besprechen und gemeinsam etwas Außergewöhnliches schaffen!",
+    "workTogether": "Zusammenarbeiten",
+    "linkedin": "LinkedIn",
+    "portfolio": "Portfolio",
+    "dialogDescription": "Ich würde gerne von Ihnen hören. Senden Sie mir eine Nachricht und ich werde mich so schnell wie möglich bei Ihnen melden.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Ihr Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "ihre.email@beispiel.de",
+    "subjectLabel": "Betreff",
+    "subjectPlaceholder": "Projektanfrage",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Erzählen Sie mir von Ihrem Projekt...",
+    "sendMessage": "Nachricht senden",
+    "emailMethod": "E-Mail",
+    "emailSub": "Lassen Sie uns Ihr Projekt besprechen",
+    "emailCta": "E-Mail senden",
+    "linkedinSub": "Professionell vernetzen",
+    "portfolioSub": "Meine Arbeiten ansehen"
+  },
+  "footer": {
+    "designCode": "Design & Code mit Sorgfalt",
+    "legalLinks": {
+      "mentions": "Impressum",
+      "privacy": "Datenschutz"
+    }
+  },
+  "legal": {
+    "title": "Impressum",
+    "edition": "1. Webseiten-Edition",
+    "hosting": "2. Hosting",
+    "ip": "3. Geistiges Eigentum",
+    "paragraph1": "Gemäß Artikel 6 des Gesetzes Nr. 2004-575 vom 21. Juni 2004 über das Vertrauen in die digitale Wirtschaft wird den Nutzern der Website die Identität der verschiedenen an ihrer Erstellung und Überwachung beteiligten Parteien mitgeteilt:",
+    "owner": "Inhaber der Website:",
+    "ownerName": "Baptiste Poulain",
+    "contact": "Kontakt:",
+    "email": "bpoulainpro@gmail.com",
+    "hostedBy": "Die Website wird gehostet von",
+    "hostDetails": "Vercel",
+    "iptext": "Baptiste Poulain besitzt die geistigen Eigentumsrechte und hält die Nutzungsrechte an allen auf der Website zugänglichen Elementen, einschließlich Texten, Bildern, Grafiken, Logos, Videos, Architektur, Symbolen und Tönen.",
+    "note": "Hinweis: Dieses Dokument ist ein allgemeiner Entwurf. Sie sollten es mit Ihren tatsächlichen Informationen vervollständigen."
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "collection": "1. Datenerhebung",
+    "usage": "2. Datenverwendung",
+    "rights": "3. Ihre Rechte",
+    "collectionText": "Die auf dieser Website erhobenen personenbezogenen Daten sind nur diejenigen, die Sie freiwillig über das Kontaktformular (Name, E-Mail, Nachricht) angeben.",
+    "usageText": "Diese Informationen werden ausschließlich zur Beantwortung Ihrer Anfragen verwendet. Sie werden niemals an Dritte weitergegeben oder verkauft.",
+    "rightsText": "Gemäß der DSGVO haben Sie ein Recht auf Auskunft, Berichtigung und Löschung Ihrer personenbezogenen Daten. Sie können dieses Recht ausüben, indem Sie uns über das Kontaktformular kontaktieren.",
+    "note": "Hinweis: Dieses Dokument ist ein allgemeiner Entwurf. Sie sollten es mit Ihren tatsächlichen Informationen vervollständigen."
+  },
+  "test": {
+    "title": "Das Labor",
+    "description": "Keine Punkte hier. Nur das Gitter. Nutzen Sie diesen Raum, um Dinge zu bauen und zu testen.",
+    "experimentTitle": "Gitter-Experiment",
+    "experimentDescription": "Testen der radialen Maskierung über dem SVG-Muster für Tiefe."
+  },
+  "underConstruction": {
+    "title": "Im Aufbau",
+    "description": "Ich baue hier gerade an etwas Großartigem. Bleib dran für weitere Updates!"
+  },
+  "trustedBy": {
+    "label": "Vertraut von",
+    "subtitle": "Als Berater bei SFEIR",
+    "teacher": "Dozent"
+  },
+  "craft": {
+    "heading": "Ich erwecke Interfaces zum Leben",
+    "subheading": "Mikro-Animationen sind keine Dekoration — sie sind die Sprache guter Software. Ein gut platzierter Übergang sagt dem Nutzer, was passiert ist, wohin er schauen soll, und dass sich jemand um die Details gekümmert hat.",
+    "pillars": {
+      "guide": {
+        "title": "Aufmerksamkeit lenken",
+        "description": "Bewegung zieht den Blick dorthin, wo es zählt. Ein- und Austritte sowie Zustandsänderungen werden intuitiv verständlich."
+      },
+      "delight": {
+        "title": "Freude erzeugen",
+        "description": "Eine subtile Feder, eine gestaffelte Einblendung — kleine Details, die ein Interface lebendig statt statisch wirken lassen."
+      },
+      "trust": {
+        "title": "Vertrauen aufbauen",
+        "description": "Flüssiges Feedback bei jeder Interaktion signalisiert Qualität. Nutzer bemerken, wenn Software durchdacht ist."
+      }
+    }
+  },
+  "animationShowcase": {
+    "heading": "Was macht eine Komponente angenehm?",
+    "subheading": "Es geht nicht nur darum, was sie tut. Sondern wie sie es tut.",
+    "without": {
+      "label": "Ohne",
+      "description": "Elemente erscheinen und verschwinden sofort. Keine räumlichen Hinweise, kein Easing. Es funktioniert — aber es fühlt sich mechanisch an."
+    },
+    "with": {
+      "label": "Mit Intention",
+      "description": "Federphysik, gestaffelte Einblendungen, räumliche Bewegung. Dieselbe Komponente — aber sie fühlt sich lebendig an."
+    },
+    "notification": {
+      "title": "Zahlung bestätigt",
+      "description": "Ihre Bestellung #4821 wurde bearbeitet."
+    },
+    "punchline": "Wenn Animationen stimmig sind, <strong>fühlen sich Nutzer wertgeschätzt.</strong>"
+  }
+}

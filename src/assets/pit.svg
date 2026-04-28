@@ -1,0 +1,128 @@
+<svg width="115" height="115" viewBox="0 0 115 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="99" height="99" fill="white" stroke="black"/>
+<g clip-path="url(#clip0_954_2011)">
+<rect x="5.5" y="5.5" width="89" height="89" fill="#969696" stroke="black"/>
+<mask id="path-3-inside-1_954_2011" fill="white">
+<path d="M6 15L40 49V121L6 87V15Z"/>
+</mask>
+<path d="M6 15L40 49V121L6 87V15Z" fill="#D9D9D9"/>
+<path d="M40 49L40.7071 49.7071V48.7071L40 48V49ZM40 121V122L40.7071 122.707V121.707L40 121ZM6 15V16L40 50V49V48L6 14V15ZM40 49L39.2929 48.2929V120.293L40 121L40.7071 121.707V49.7071L40 49ZM40 121V120L6 86V87V88L40 122V121Z" fill="black" mask="url(#path-3-inside-1_954_2011)"/>
+<path d="M40 49L40.7071 49.7071V48.7071L40 48V49ZM40 121V122L40.7071 122.707V121.707L40 121ZM6 15V16L40 50V49V48L6 14V15ZM40 49L39.2929 48.2929V120.293L40 121L40.7071 121.707V49.7071L40 49ZM40 121V120L6 86V87V88L40 122V121Z" fill="black" mask="url(#path-3-inside-1_954_2011)"/>
+<path d="M40 49L40.7071 49.7071V48.7071L40 48V49ZM40 121V122L40.7071 122.707V121.707L40 121ZM6 15V16L40 50V49V48L6 14V15ZM40 49L39.2929 48.2929V120.293L40 121L40.7071 121.707V49.7071L40 49ZM40 121V120L6 86V87V88L40 122V121Z" fill="black" mask="url(#path-3-inside-1_954_2011)"/>
+<rect x="0.853553" y="0.353553" width="71" height="47.0833" transform="matrix(1 0 0.707107 0.707107 13.75 5.10355)" fill="#D9D9D9" stroke="black"/>
+<mask id="path-6-inside-2_954_2011" fill="white">
+<path d="M6 15H15L49 49H40L6 15Z"/>
+</mask>
+<path d="M6 15H15L49 49H40L6 15Z" fill="#D9D9D9"/>
+<path d="M49 49L49.7071 49.7071H50.7071L50 49H49ZM15 15H14L48 49H49H50L16 15H15ZM49 49L48.2929 48.2929H39.2929L40 49L40.7071 49.7071H49.7071L49 49Z" fill="black" mask="url(#path-6-inside-2_954_2011)"/>
+<path d="M49 49L49.7071 49.7071H50.7071L50 49H49ZM15 15H14L48 49H49H50L16 15H15ZM49 49L48.2929 48.2929H39.2929L40 49L40.7071 49.7071H49.7071L49 49Z" fill="black" mask="url(#path-6-inside-2_954_2011)"/>
+<path d="M49 49L49.7071 49.7071H50.7071L50 49H49ZM15 15H14L48 49H49H50L16 15H15ZM49 49L48.2929 48.2929H39.2929L40 49L40.7071 49.7071H49.7071L49 49Z" fill="black" mask="url(#path-6-inside-2_954_2011)"/>
+<mask id="path-8-inside-3_954_2011" fill="white">
+<path d="M5.98438 6H16L49 39H38.9844L5.98438 6Z"/>
+</mask>
+<path d="M5.98438 6H16L49 39H38.9844L5.98438 6Z" fill="#D9D9D9"/>
+<path d="M16 6H15L48 39H49H50L17 6H16Z" fill="black" mask="url(#path-8-inside-3_954_2011)"/>
+<path d="M16 6H15L48 39H49H50L17 6H16Z" fill="black" mask="url(#path-8-inside-3_954_2011)"/>
+<path d="M16 6H15L48 39H49H50L17 6H16Z" fill="black" mask="url(#path-8-inside-3_954_2011)"/>
+<mask id="path-10-inside-4_954_2011" fill="white">
+<path d="M6 85H15L29.1421 99.1421H20.1421L6 85Z"/>
+</mask>
+<path d="M6 85H15L29.1421 99.1421H20.1421L6 85Z" fill="#D9D9D9"/>
+<path d="M29.1421 99.1421L29.8492 99.8492H30.8492L30.1421 99.1421H29.1421ZM15 85H14L28.1421 99.1421H29.1421H30.1421L16 85H15ZM29.1421 99.1421L28.435 98.435H19.435L20.1421 99.1421L20.8492 99.8492H29.8492L29.1421 99.1421Z" fill="black" mask="url(#path-10-inside-4_954_2011)"/>
+<path d="M29.1421 99.1421L29.8492 99.8492H30.8492L30.1421 99.1421H29.1421ZM15 85H14L28.1421 99.1421H29.1421H30.1421L16 85H15ZM29.1421 99.1421L28.435 98.435H19.435L20.1421 99.1421L20.8492 99.8492H29.8492L29.1421 99.1421Z" fill="black" mask="url(#path-10-inside-4_954_2011)"/>
+<path d="M29.1421 99.1421L29.8492 99.8492H30.8492L30.1421 99.1421H29.1421ZM15 85H14L28.1421 99.1421H29.1421H30.1421L16 85H15ZM29.1421 99.1421L28.435 98.435H19.435L20.1421 99.1421L20.8492 99.8492H29.8492L29.1421 99.1421Z" fill="black" mask="url(#path-10-inside-4_954_2011)"/>
+<mask id="path-12-inside-5_954_2011" fill="white">
+<path d="M85 15H94L108.142 29.1421H99.1421L85 15Z"/>
+</mask>
+<path d="M85 15H94L108.142 29.1421H99.1421L85 15Z" fill="#D9D9D9"/>
+<path d="M99.1421 29.1421H98.1421L98.8492 29.8492H99.8492L99.1421 29.1421ZM108.142 29.1421L107.435 28.435H98.435L99.1421 29.1421L99.8492 29.8492H108.849L108.142 29.1421ZM99.1421 29.1421H100.142L86 15H85H84L98.1421 29.1421H99.1421Z" fill="black" mask="url(#path-12-inside-5_954_2011)"/>
+<path d="M99.1421 29.1421H98.1421L98.8492 29.8492H99.8492L99.1421 29.1421ZM108.142 29.1421L107.435 28.435H98.435L99.1421 29.1421L99.8492 29.8492H108.849L108.142 29.1421ZM99.1421 29.1421H100.142L86 15H85H84L98.1421 29.1421H99.1421Z" fill="black" mask="url(#path-12-inside-5_954_2011)"/>
+<path d="M99.1421 29.1421H98.1421L98.8492 29.8492H99.8492L99.1421 29.1421ZM108.142 29.1421L107.435 28.435H98.435L99.1421 29.1421L99.8492 29.8492H108.849L108.142 29.1421ZM99.1421 29.1421H100.142L86 15H85H84L98.1421 29.1421H99.1421Z" fill="black" mask="url(#path-12-inside-5_954_2011)"/>
+<line x1="48.5" y1="39" x2="48.5" y2="49" stroke="black"/>
+<path d="M29.8965 20.25L63.75 54.1035V63.75H54.1035L20.25 29.8965V20.25H29.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="20.25" y="20.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M63.5002 63.5002L29.5062 29.5062" stroke="black" stroke-width="0.5"/>
+<path d="M46.8965 20.25L80.75 54.1035V63.75H71.1035L37.25 29.8965V20.25H46.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="37.25" y="20.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M80.5002 63.5002L46.5062 29.5062" stroke="black" stroke-width="0.5"/>
+<path d="M63.8965 20.25L97.75 54.1035V63.75H88.1035L54.25 29.8965V20.25H63.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="54.25" y="20.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M97.5002 63.5002L63.5062 29.5062" stroke="black" stroke-width="0.5"/>
+<path d="M80.8965 20.25L114.75 54.1035V63.75H105.104L71.25 29.8965V20.25H80.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="71.25" y="20.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M114.5 63.5002L80.5062 29.5062" stroke="black" stroke-width="0.5"/>
+<path d="M29.8965 37.25L63.75 71.1035V80.75H54.1035L20.25 46.8965V37.25H29.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="20.25" y="37.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M63.5002 80.5002L29.5062 46.5062" stroke="black" stroke-width="0.5"/>
+<path d="M46.8965 37.25L80.75 71.1035V80.75H71.1035L37.25 46.8965V37.25H46.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="37.25" y="37.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M80.5002 80.5002L46.5062 46.5062" stroke="black" stroke-width="0.5"/>
+<path d="M63.8965 37.25L97.75 71.1035V80.75H88.1035L54.25 46.8965V37.25H63.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="54.25" y="37.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M97.5002 80.5002L63.5062 46.5062" stroke="black" stroke-width="0.5"/>
+<path d="M80.8965 37.25L114.75 71.1035V80.75H105.104L71.25 46.8965V37.25H80.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="71.25" y="37.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M114.5 80.5002L80.5062 46.5062" stroke="black" stroke-width="0.5"/>
+<path d="M29.8965 54.25L63.75 88.1035V97.75H54.1035L20.25 63.8965V54.25H29.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="20.25" y="54.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M63.5002 97.5002L29.5062 63.5062" stroke="black" stroke-width="0.5"/>
+<path d="M46.8965 54.25L80.75 88.1035V97.75H71.1035L37.25 63.8965V54.25H46.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="37.25" y="54.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M80.5002 97.5002L46.5062 63.5062" stroke="black" stroke-width="0.5"/>
+<path d="M63.8965 54.25L97.75 88.1035V97.75H88.1035L54.25 63.8965V54.25H63.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="54.25" y="54.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M97.5002 97.5002L63.5062 63.5062" stroke="black" stroke-width="0.5"/>
+<path d="M80.8965 54.25L114.75 88.1035V97.75H105.104L71.25 63.8965V54.25H80.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="71.25" y="54.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M114.5 97.5002L80.5062 63.5062" stroke="black" stroke-width="0.5"/>
+<path d="M29.8965 71.25L63.75 105.104V114.75H54.1035L20.25 80.8965V71.25H29.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="20.25" y="71.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M63.5002 114.5L29.5062 80.5062" stroke="black" stroke-width="0.5"/>
+<path d="M46.8965 71.25L80.75 105.104V114.75H71.1035L37.25 80.8965V71.25H46.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="37.25" y="71.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M80.5002 114.5L46.5062 80.5062" stroke="black" stroke-width="0.5"/>
+<path d="M63.8965 71.25L97.75 105.104V114.75H88.1035L54.25 80.8965V71.25H63.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="54.25" y="71.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M97.5002 114.5L63.5062 80.5062" stroke="black" stroke-width="0.5"/>
+<path d="M80.8965 71.25L114.75 105.104V114.75H105.104L71.25 80.8965V71.25H80.8965Z" fill="#AAAAAA" stroke="black" stroke-width="0.5"/>
+<rect x="71.25" y="71.25" width="9.5" height="9.5" fill="white" stroke="black" stroke-width="0.5"/>
+<path d="M114.5 114.5L80.5062 80.5062" stroke="black" stroke-width="0.5"/>
+<path d="M15 94.5H86" stroke="black"/>
+<mask id="path-64-inside-6_954_2011" fill="white">
+<path d="M95.1421 5L95.1421 15L85.1421 15L85.1421 5L95.1421 5Z"/>
+</mask>
+<path d="M95.1421 5L95.1421 15L85.1421 15L85.1421 5L95.1421 5Z" fill="white"/>
+<path d="M85.1421 15L84.1421 15L84.1421 16L85.1421 16L85.1421 15ZM95.1421 15L95.1421 14L85.1421 14L85.1421 15L85.1421 16L95.1421 16L95.1421 15ZM85.1421 15L86.1421 15L86.1421 5L85.1421 5L84.1421 5L84.1421 15L85.1421 15Z" fill="black" mask="url(#path-64-inside-6_954_2011)"/>
+<mask id="path-66-inside-7_954_2011" fill="white">
+<path d="M5 5H15V15H5V5Z"/>
+</mask>
+<path d="M5 5H15V15H5V5Z" fill="white"/>
+<path d="M15 15V16H16V15H15ZM15 5H14V15H15H16V5H15ZM15 15V14H5V15V16H15V15Z" fill="black" mask="url(#path-66-inside-7_954_2011)"/>
+<mask id="path-68-inside-8_954_2011" fill="white">
+<path d="M5 95L5 85H15L15 95H5Z"/>
+</mask>
+<path d="M5 95L5 85H15L15 95H5Z" fill="white"/>
+<path d="M15 85H16V84H15V85ZM5 85V86H15V85V84H5L5 85ZM15 85H14L14 95H15H16V85H15Z" fill="black" mask="url(#path-68-inside-8_954_2011)"/>
+<mask id="path-70-inside-9_954_2011" fill="white">
+<path d="M95 95L85 95L85 85L95 85L95 95Z"/>
+</mask>
+<path d="M95 95L85 95L85 85L95 85L95 95Z" fill="white"/>
+<path d="M85 85L85 84L84 84L84 85L85 85ZM85 95L86 95L86 85L85 85L84 85L84 95L85 95ZM85 85L85 86L95 86L95 85L95 84L85 84L85 85Z" fill="black" mask="url(#path-70-inside-9_954_2011)"/>
+</g>
+<line x1="94.5" y1="14" x2="94.5" y2="85" stroke="black"/>
+<mask id="path-73-inside-10_954_2011" fill="white">
+<path d="M100 0L114.142 14.1421V114.142L100 100V0Z"/>
+</mask>
+<path d="M100 0L114.142 14.1421V114.142L100 100V0Z" fill="#D9D9D9"/>
+<path d="M114.142 14.1421L114.849 14.8492V13.8492L114.142 13.1421V14.1421ZM114.142 114.142V115.142L114.849 115.849V114.849L114.142 114.142ZM100 0V1L114.142 15.1421V14.1421V13.1421L100 -1V0ZM114.142 14.1421L113.435 13.435V113.435L114.142 114.142L114.849 114.849V14.8492L114.142 14.1421ZM114.142 114.142V113.142L100 99V100V101L114.142 115.142V114.142Z" fill="black" mask="url(#path-73-inside-10_954_2011)"/>
+<mask id="path-75-inside-11_954_2011" fill="white">
+<path d="M0 100H100L114.142 114.142H14.1421L0 100Z"/>
+</mask>
+<path d="M0 100H100L114.142 114.142H14.1421L0 100Z" fill="#D9D9D9"/>
+<path d="M14.1421 114.142H13.1421L13.8492 114.849H14.8492L14.1421 114.142ZM114.142 114.142L113.435 113.435H13.435L14.1421 114.142L14.8492 114.849H114.849L114.142 114.142ZM14.1421 114.142H15.1421L1 100H0H-1L13.1421 114.142H14.1421Z" fill="black" mask="url(#path-75-inside-11_954_2011)"/>
+<defs>
+<clipPath id="clip0_954_2011">
+<rect width="90" height="90" fill="white" transform="translate(5 5)"/>
+</clipPath>
+</defs>
+</svg>

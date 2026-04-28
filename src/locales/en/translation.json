@@ -1,0 +1,203 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "toggle": "Change language",
+    "english": "English",
+    "french": "Français",
+    "german": "Deutsch"
+  },
+  "hero": {
+    "hello": "Hello, I'm",
+    "name": "Baptiste",
+    "title": "Frontend Engineer | Fullstack Developer",
+    "description": "Passionate about UI/UX, mobile and web development. Specialized in TypeScript, ReactJS, React Native & Expo. Currently working on L'Oréal GPT at SFEIR.",
+    "cta": "Get In Touch",
+    "viewWorks": "View Works",
+    "craft": "I craft digital experiences with a focus on",
+    "animations": "Animations",
+    "ux": "UX",
+    "micro-interactions": "Micro-interactions"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "Frontend Engineer at SFEIR working on cutting-edge projects for major clients including L'Oréal, Décathlon, and Adeo. I specialize in developing engaging user experiences with captivating animations and performance optimization.",
+    "paragraph2": "I run my own company and am available for website projects for small businesses and startups. Let's create something amazing together!",
+    "downloadCV": "Download CV",
+    "profileImage": "Profile Image"
+  },
+  "experience": {
+    "title": "Experience",
+    "loreal": {
+      "company": "L'Oréal x SFEIR",
+      "position": "Frontend Engineer",
+      "period": "May 2025 - Present",
+      "description": "Developing and enhancing L'Oréal GPT, a cutting-edge AI tool. Adding new features, optimizing performance, and bringing the UI to life with captivating animations.",
+      "focus": "Focus on creating seamless user experiences with engaging animations and secure platform development."
+    },
+    "sfeir": {
+      "company": "Decathlon & Adeo (via SFEIR)",
+      "position": "Fullstack Developer",
+      "period": "Sept 2023 - Feb 2025",
+      "description": "Contributing to impactful projects for major clients. Specialized in creating smooth, animated user interfaces that delight users.",
+      "achievements": [
+        "Bruno open-source tool development with animated UI components",
+        "Legacy tool rewrite for global customs management with modern animations",
+        "Beauty Tech platform with focus on accessibility and fluid interactions"
+      ]
+    },
+    "welovedevs": {
+      "company": "WeLoveDevs",
+      "position": "Apprentice Web Developer",
+      "period": "Aug 2021 - Sept 2023",
+      "description": "2-year apprenticeship during Master's degree. Developed interactive web applications with smooth animations and micro-interactions."
+    },
+    "willemse": {
+      "company": "Willemse France",
+      "position": "Apprentice Developer",
+      "period": "Sept 2020 - Aug 2021",
+      "description": "1-year apprenticeship focused on web development and improving digital tools."
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "projectImage": "Project Image",
+    "loreal": {
+      "title": "L'Oréal GPT Platform",
+      "description": "Cutting-edge AI tool for L'Oréal with focus on security, accessibility, and engaging animations. Frontend development and UI enhancement."
+    },
+    "bruno": {
+      "title": "Bruno API Testing Tool",
+      "description": "Contributed to the open-source Bruno project at Adeo, helping teams migrate from Postman with improved developer experience."
+    },
+    "viewProject": "View Project"
+  },
+  "designShowcase": {
+    "title": "Design That Converts",
+    "description": "I don't just code - I design experiences that capture attention and drive results. See how I transform boring, cookie-cutter websites into engaging, memorable experiences that help businesses stand out from their competitors."
+  },
+  "beforeAfter": {
+    "before": "Before",
+    "after": {
+      "label": "After",
+      "brandName": "INNOVATE",
+      "headline": "Transform Your Vision Into Reality",
+      "description": "Experience the difference with cutting-edge design and seamless interactions that captivate your audience and drive meaningful engagement.",
+      "primaryCta": "Start Your Journey",
+      "secondaryCta": "View Portfolio"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I have my own company and I'm available for website projects for small businesses. Let's discuss your project and create something exceptional together!",
+    "workTogether": "Let's Work Together",
+    "linkedin": "LinkedIn",
+    "portfolio": "Portfolio",
+    "dialogDescription": "I'd love to hear from you. Send me a message and I'll get back to you as soon as possible.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Project inquiry",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell me about your project...",
+    "sendMessage": "Send Message",
+    "emailMethod": "Email",
+    "emailSub": "Let's discuss your project",
+    "emailCta": "Send Email",
+    "linkedinSub": "Connect professionally",
+    "portfolioSub": "View my work"
+  },
+  "footer": {
+    "designCode": "Design & Code with Care",
+    "legalLinks": {
+      "mentions": "Legal Mentions",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "legal": {
+    "title": "Legal Mentions",
+    "edition": "1. Site Edition",
+    "hosting": "2. Hosting",
+    "ip": "3. Intellectual Property",
+    "paragraph1": "Under Article 6 of Law No. 2004-575 of June 21, 2004, for confidence in the digital economy, the identity of the various parties involved in its creation and monitoring is specified to the users of the site:",
+    "owner": "Site Owner:",
+    "ownerName": "Baptiste Poulain",
+    "contact": "Contact:",
+    "email": "bpoulainpro@gmail.com",
+    "hostedBy": "The site is hosted by",
+    "hostDetails": "Vercel",
+    "iptext": "Baptiste Poulain owns the intellectual property rights and holds the usage rights on all elements accessible on the website, including texts, images, graphics, logos, videos, architecture, icons, and sounds.",
+    "note": "Note: This document is a generic draft. You should complete it with your real information."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "collection": "1. Data Collection",
+    "usage": "2. Data Usage",
+    "rights": "3. Your Rights",
+    "collectionText": "The personal data collected on this site are only those you provide voluntarily via the contact form (Name, Email, Message).",
+    "usageText": "This information is used exclusively to respond to your inquiries. It is never shared with third parties or sold.",
+    "rightsText": "In accordance with the GDPR, you have a right of access, rectification, and deletion of your personal data. You can exercise this right by contacting us via the contact form.",
+    "note": "Note: This document is a generic draft. You should complete it with your real information."
+  },
+  "test": {
+    "title": "The Lab",
+    "description": "No dots here. Only the grid. Use this space to build and break things.",
+    "experimentTitle": "Grid Experiment",
+    "experimentDescription": "Testing radial masking over SVG pattern for depth."
+  },
+  "underConstruction": {
+    "title": "Under Construction",
+    "description": "I'm currently building something amazing here. Stay tuned for more updates!"
+  },
+  "trustedBy": {
+    "label": "Trusted by",
+    "subtitle": "As a consultant at SFEIR",
+    "teacher": "Teacher"
+  },
+  "craft": {
+    "heading": "I bring interfaces to life",
+    "subheading": "Micro-animations aren't decoration — they're how good software communicates. A well-placed transition tells the user what happened, where to look, and that someone cared about the details.",
+    "pillars": {
+      "guide": {
+        "title": "Guide attention",
+        "description": "Motion draws the eye where it matters. Entrances, exits, and state changes become clear without thinking."
+      },
+      "delight": {
+        "title": "Create delight",
+        "description": "A subtle spring, a staggered reveal — small touches that make an interface feel alive rather than static."
+      },
+      "trust": {
+        "title": "Build trust",
+        "description": "Smooth feedback on every interaction signals quality. Users notice when software feels polished."
+      }
+    }
+  },
+  "animationShowcase": {
+    "heading": "What makes a component feel good?",
+    "subheading": "It's not just about what it does. It's about how it does it.",
+    "without": {
+      "label": "Without",
+      "description": "Elements appear and disappear instantly. No spatial cues, no easing. It works — but it feels mechanical."
+    },
+    "with": {
+      "label": "With intention",
+      "description": "Spring physics, staggered reveals, spatial movement. The same component — but it feels alive."
+    },
+    "notification": {
+      "title": "Payment confirmed",
+      "description": "Your order #4821 has been processed."
+    },
+    "punchline": "When animations feel right, <strong>users feel cared for.</strong>"
+  }
+}
