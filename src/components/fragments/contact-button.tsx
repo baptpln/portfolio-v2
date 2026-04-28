@@ -8,16 +8,13 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { MatrixDisplay } from "./matrix/matrix-display";
 import { contactMatrix } from "./matrix/contact-matrix";
-import type { Variants } from "motion/react";
-
-const fieldVariants: Variants = {
-  hidden: { opacity: 0, y: 10 },
-  show: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: { delay: i * 0.07, duration: 0.35, ease: "easeOut" },
-  }),
-};
+function field(i: number) {
+  return {
+    initial: { opacity: 0, y: 10 },
+    animate: { opacity: 1, y: 0 },
+    transition: { delay: i * 0.07, duration: 0.35, ease: "easeOut" as const },
+  };
+}
 
 interface ContactButtonProps {
   className?: string;
@@ -100,12 +97,7 @@ export const ContactButton = ({ className }: ContactButtonProps) => {
 
                     {/* Fields */}
                     <div className="flex flex-col gap-4">
-                      <motion.div
-                        custom={0}
-                        variants={fieldVariants}
-                        initial="hidden"
-                        animate="show"
-                      >
+                      <motion.div {...field(0)}>
                         <label className="text-xs font-heading font-medium text-muted-foreground uppercase tracking-wider mb-1.5 block">
                           {t("contact.nameLabel")}
                         </label>
@@ -118,12 +110,7 @@ export const ContactButton = ({ className }: ContactButtonProps) => {
                         />
                       </motion.div>
 
-                      <motion.div
-                        custom={1}
-                        variants={fieldVariants}
-                        initial="hidden"
-                        animate="show"
-                      >
+                      <motion.div {...field(1)}>
                         <label className="text-xs font-heading font-medium text-muted-foreground uppercase tracking-wider mb-1.5 block">
                           {t("contact.emailLabel")}
                         </label>
@@ -136,12 +123,7 @@ export const ContactButton = ({ className }: ContactButtonProps) => {
                         />
                       </motion.div>
 
-                      <motion.div
-                        custom={2}
-                        variants={fieldVariants}
-                        initial="hidden"
-                        animate="show"
-                      >
+                      <motion.div {...field(2)}>
                         <label className="text-xs font-heading font-medium text-muted-foreground uppercase tracking-wider mb-1.5 block">
                           {t("contact.messageLabel")}
                         </label>
@@ -154,12 +136,7 @@ export const ContactButton = ({ className }: ContactButtonProps) => {
                         />
                       </motion.div>
 
-                      <motion.div
-                        custom={3}
-                        variants={fieldVariants}
-                        initial="hidden"
-                        animate="show"
-                      >
+                      <motion.div {...field(3)}>
                         <Button type="submit" className="w-full gap-2">
                           <Send size={14} />
                           {t("contact.sendMessage")}

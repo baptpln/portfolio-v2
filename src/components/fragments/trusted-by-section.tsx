@@ -5,12 +5,19 @@ import decathlonLogo from "@/assets/brands/decathlon.svg";
 import lorealLogo from "@/assets/brands/loreal-light.svg";
 import mdsLogo from "@/assets/brands/mydigitalschool.svg";
 
-const brands = [
+interface Brand {
+  name: string;
+  src: string;
+  invertInDark?: boolean;
+  isTeacher?: boolean;
+}
+
+const brands: Brand[] = [
   { name: "Adeo", src: adeoLogo },
   { name: "Decathlon", src: decathlonLogo },
   { name: "L'Oréal Paris", src: lorealLogo, invertInDark: true },
   { name: "MyDigitalSchool", src: mdsLogo, isTeacher: true },
-] as const;
+];
 
 const containerVariants = {
   hidden: {},
@@ -24,7 +31,7 @@ const itemVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5, ease: [0.25, 0.1, 0.25, 1] },
+    transition: { duration: 0.5, ease: "easeOut" as const },
   },
 };
 
