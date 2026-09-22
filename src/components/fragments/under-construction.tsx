@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { Hammer, Pickaxe, Construction } from "lucide-react";
+import { Barricade, Hammer, Wrench } from "@phosphor-icons/react";
 
 export function UnderConstruction() {
   const { t } = useTranslation();
@@ -73,7 +73,7 @@ export function UnderConstruction() {
                 ease: "easeInOut",
               }}
             >
-              <Pickaxe size={48} strokeWidth={1.5} />
+              <Wrench size={48} weight="light" />
             </motion.div>
           </motion.div>
 
@@ -118,7 +118,7 @@ export function UnderConstruction() {
               transition={{ duration: 2, repeat: Infinity, delay: 0.3 }}
               className="text-white/60"
             >
-              <Construction size={24} />
+              <Barricade size={24} />
             </motion.div>
           </motion.div>
         </div>

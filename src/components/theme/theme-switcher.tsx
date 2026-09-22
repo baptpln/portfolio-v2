@@ -1,4 +1,4 @@
-import { Moon, Sun, SunMoon } from "lucide-react";
+import { CircleHalf as SunMoon, Moon, Sun } from "@phosphor-icons/react";
 import { useTheme } from "@/components/theme/theme-provider";
 import { Button } from "@/components/ui/button";
 import { useCallback, useState, useEffect, forwardRef, type FC } from "react";

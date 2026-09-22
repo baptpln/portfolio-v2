@@ -1,8 +1,7 @@
 import { LandingHero } from "@/components/landing-hero";
 // import { PortraitWave } from "@/components/wave/portrait-wave"; // archived
 import { TrustedBySection } from "@/components/fragments/trusted-by-section";
-import { CraftSection } from "@/components/fragments/craft-section";
-import { AnimationShowcase } from "@/components/fragments/animation-showcase";
+import { ComponentShowcase } from "@/components/fragments/component-showcase";
 import { IsometricConveyor } from "@/components/isometric/isometric-conveyor";
 import { DynamicIslandNavbar } from "@/components/dynamic-island/dynamic-island-navbar";
 
@@ -21,17 +20,13 @@ export function Home() {
 
           {/* Right Column - Isometric animation */}
           <div className=" lg:flex flex-col items-center justify-center p-8">
-            <IsometricConveyor hero />
+            <IsometricConveyor />
           </div>
         </div>
 
         <TrustedBySection />
 
-        <CraftSection />
-
-        {/* IsometricConveyor archived from standalone section — now lives in hero */}
-
-        <AnimationShowcase />
+        <ComponentShowcase />
       </div>
     </>
   );

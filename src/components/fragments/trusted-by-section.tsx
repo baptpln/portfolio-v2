@@ -4,30 +4,42 @@ import adeoLogo from "@/assets/brands/adeo.svg";
 import decathlonLogo from "@/assets/brands/decathlon.svg";
 import lorealLogo from "@/assets/brands/loreal-light.svg";
 import mdsLogo from "@/assets/brands/mydigitalschool.svg";
+import sfeirLogo from "@/assets/brands/sfeir.webp";
+import ynovLogo from "@/assets/brands/ynov.png";
 
 interface Brand {
   name: string;
   src: string;
-  invertInDark?: boolean;
-  isTeacher?: boolean;
+  /** Intrinsic width / height of the asset, so the mask box matches it. */
+  ratio: number;
+  /** Optical size tweak: wide wordmarks read smaller, square marks bigger. */
+  scale?: number;
 }
 
-const brands: Brand[] = [
-  { name: "Adeo", src: adeoLogo },
-  { name: "Decathlon", src: decathlonLogo },
-  { name: "L'Oréal Paris", src: lorealLogo, invertInDark: true },
-  { name: "MyDigitalSchool", src: mdsLogo, isTeacher: true },
+/** Base logo height in px; each brand's `scale` multiplies it. */
+const LOGO_HEIGHT = 28;
+
+// SFEIR first: it anchors the row, and the clients after it are missions
+// carried out through them rather than direct clients of my own company.
+const companies: Brand[] = [
+  { name: "SFEIR", src: sfeirLogo, ratio: 2.98 },
+  { name: "Adeo", src: adeoLogo, ratio: 1.78, scale: 1.5 },
+  { name: "Decathlon", src: decathlonLogo, ratio: 5.03, scale: 0.75 },
+  { name: "L'Oréal Paris", src: lorealLogo, ratio: 5.53, scale: 0.8 },
 ];
 
-const containerVariants = {
+const schools: Brand[] = [
+  { name: "MyDigitalSchool", src: mdsLogo, ratio: 1.7, scale: 1.4 },
+  { name: "Ynov Campus Lille", src: ynovLogo, ratio: 2.0, scale: 1.5 },
+];
+
+const rowVariants = {
   hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.12 },
-  },
+  visible: { transition: { staggerChildren: 0.1 } },
 };
 
-const itemVariants = {
-  hidden: { opacity: 0, y: 12 },
+const logoVariants = {
+  hidden: { opacity: 0, y: 10 },
   visible: {
     opacity: 1,
     y: 0,
@@ -35,55 +47,90 @@ const itemVariants = {
   },
 };
 
+/**
+ * Logos are painted with the theme's foreground colour through a CSS mask
+ * rather than rendered as images: one consistent weight across the row, full
+ * strength (no dimming), and dark mode handled without per-logo inverts.
+ */
+function Logo({ brand }: { brand: Brand }) {
+  const height = LOGO_HEIGHT * (brand.scale ?? 1);
+
+  return (
+    <motion.span
+      variants={logoVariants}
+      whileHover={{ y: -2 }}
+      transition={{ type: "spring", stiffness: 300, damping: 20 }}
+      role="img"
+      aria-label={brand.name}
+      className="block bg-foreground/85 transition-colors duration-300 hover:bg-foreground"
+      style={{
+        height,
+        width: height * brand.ratio,
+        // Quoted: small assets are inlined by Vite as data: URLs, whose commas
+        // would otherwise break the CSS url() function.
+        maskImage: `url("${brand.src}")`,
+        WebkitMaskImage: `url("${brand.src}")`,
+        maskSize: "contain",
+        WebkitMaskSize: "contain",
+        maskRepeat: "no-repeat",
+        WebkitMaskRepeat: "no-repeat",
+        maskPosition: "center",
+        WebkitMaskPosition: "center",
+      }}
+    />
+  );
+}
+
+function LogoRow({
+  label,
+  hint,
+  brands,
+}: {
+  label: string;
+  hint?: string;
+  brands: Brand[];
+}) {
+  return (
+    <motion.div
+      variants={rowVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.4 }}
+      className="flex flex-col gap-6 py-10 md:flex-row md:items-center md:gap-14"
+    >
+      <div className="shrink-0 text-center md:w-44 md:text-left">
+        <p className="text-xs font-heading uppercase tracking-[0.2em] text-muted-foreground">
+          {label}
+        </p>
+        {hint && (
+          <p className="mt-1 text-xs font-heading text-muted-foreground/60">
+            {hint}
+          </p>
+        )}
+      </div>
+
+      <div className="flex flex-1 flex-wrap items-center justify-center gap-10 md:justify-between md:gap-14">
+        {brands.map((brand) => (
+          <Logo key={brand.name} brand={brand} />
+        ))}
+      </div>
+    </motion.div>
+  );
+}
+
 export function TrustedBySection() {
   const { t } = useTranslation();
 
   return (
-    <section className="py-16 px-8 md:px-20 max-w-5xl mx-auto w-full">
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ duration: 0.6 }}
-        className="mb-10 text-center"
-      >
-        <p className="text-xs font-heading uppercase tracking-[0.2em] text-muted-foreground">
-          {t("trustedBy.label")}
-        </p>
-        <p className="text-xs font-heading text-muted-foreground/60 mt-1">
-          {t("trustedBy.subtitle")}
-        </p>
-      </motion.div>
-
-      <motion.div
-        variants={containerVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
-        className="grid grid-cols-2 md:flex md:flex-row items-center justify-center gap-10 md:gap-16"
-      >
-        {brands.map((brand) => (
-          <motion.div
-            key={brand.name}
-            variants={itemVariants}
-            className="relative flex items-center justify-center"
-          >
-            <img
-              src={brand.src}
-              alt={brand.name}
-              className={[
-                "h-8 md:h-9 w-auto object-contain opacity-60 hover:opacity-100 transition-all duration-300 hover:-translate-y-0.5",
-                brand.invertInDark ? "dark:invert" : "dark:brightness-[1.8]",
-              ].join(" ")}
-            />
-            {brand.isTeacher && (
-              <span className="absolute -top-5 -right-3 text-[10px] font-heading font-medium text-muted-foreground bg-muted px-1.5 py-0.5 rounded-full leading-none">
-                {t("trustedBy.teacher")}
-              </span>
-            )}
-          </motion.div>
-        ))}
-      </motion.div>
+    <section className="my-16 w-full border-y border-border">
+      <div className="mx-auto w-full max-w-6xl divide-y divide-border px-8 md:px-20">
+        <LogoRow
+          label={t("trustedBy.label")}
+          hint={t("trustedBy.subtitle")}
+          brands={companies}
+        />
+        <LogoRow label={t("trustedBy.teaching")} brands={schools} />
+      </div>
     </section>
   );
 }

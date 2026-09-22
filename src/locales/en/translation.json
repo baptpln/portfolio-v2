@@ -161,43 +161,49 @@
     "description": "I'm currently building something amazing here. Stay tuned for more updates!"
   },
   "trustedBy": {
-    "label": "Trusted by",
+    "label": "Worked with",
     "subtitle": "As a consultant at SFEIR",
-    "teacher": "Teacher"
+    "teacher": "Teacher",
+    "via": "via SFEIR",
+    "teaching": "Teaching at"
   },
-  "craft": {
-    "heading": "I bring interfaces to life",
-    "subheading": "Micro-animations aren't decoration — they're how good software communicates. A well-placed transition tells the user what happened, where to look, and that someone cared about the details.",
-    "pillars": {
-      "guide": {
-        "title": "Guide attention",
-        "description": "Motion draws the eye where it matters. Entrances, exits, and state changes become clear without thinking."
+  "componentShowcase": {
+    "heading": "Components, not slides",
+    "subheading": "Interface pieces I build by hand. Nothing here is a recording — go on, use them.",
+    "reset": "Restart demo",
+    "cells": {
+      "chat": {
+        "title": "Chat",
+        "description": "Type, send, watch it think. Message entrances, a typing indicator, and a reply that lands.",
+        "placeholder": "Ask me something…",
+        "send": "Send",
+        "suggestions": [
+          "Are you available?",
+          "What do you build?",
+          "Is this chat real?"
+        ],
+        "answers": [
+          "Yes — I take freelance projects alongside my job at SFEIR. The contact page is one click away.",
+          "Web and mobile interfaces in React, React Native and TypeScript — including the animation work you're looking at.",
+          "Nope, I'm scripted. Baptiste wrote my answers by hand, which is arguably more effort than calling an API."
+        ],
+        "fallbacks": [
+          "I only know a handful of answers — try one of the suggestions.",
+          "Baptiste kept me small. Ask him directly through the contact page.",
+          "That one's beyond me. The real Baptiste replies faster than you'd expect."
+        ]
       },
-      "delight": {
-        "title": "Create delight",
-        "description": "A subtle spring, a staggered reveal — small touches that make an interface feel alive rather than static."
-      },
-      "trust": {
-        "title": "Build trust",
-        "description": "Smooth feedback on every interaction signals quality. Users notice when software feels polished."
+      "call": {
+        "title": "Call",
+        "description": "A fake incoming call, answered for real — grants camera access and shows your feed live.",
+        "caller": "A fantastic developer",
+        "ringing": "Incoming call…",
+        "accept": "Accept",
+        "decline": "Decline",
+        "end": "End call",
+        "denied": "Camera access denied",
+        "ended": "Call ended"
       }
     }
-  },
-  "animationShowcase": {
-    "heading": "What makes a component feel good?",
-    "subheading": "It's not just about what it does. It's about how it does it.",
-    "without": {
-      "label": "Without",
-      "description": "Elements appear and disappear instantly. No spatial cues, no easing. It works — but it feels mechanical."
-    },
-    "with": {
-      "label": "With intention",
-      "description": "Spring physics, staggered reveals, spatial movement. The same component — but it feels alive."
-    },
-    "notification": {
-      "title": "Payment confirmed",
-      "description": "Your order #4821 has been processed."
-    },
-    "punchline": "When animations feel right, <strong>users feel cared for.</strong>"
   }
 }

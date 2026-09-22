@@ -5,7 +5,7 @@ import { ThemeSwitcher } from "@/components/theme/theme-switcher";
 import { cn } from "@/lib/utils";
 import { ContactButton } from "@/components/fragments/contact-button";
 import { useTranslation } from "react-i18next";
-import { Globe } from "lucide-react";
+import { Globe } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 import { languages } from "./language-settings";
 

@@ -161,43 +161,49 @@
     "description": "Je suis en train de préparer quelque chose d'incroyable ici. Revenez bientôt pour voir les nouveautés !"
   },
   "trustedBy": {
-    "label": "Ils m'ont fait confiance",
+    "label": "J'ai travaillé avec",
     "subtitle": "En tant que consultant chez SFEIR",
-    "teacher": "Formateur"
+    "teacher": "Formateur",
+    "via": "via SFEIR",
+    "teaching": "J'enseigne à"
   },
-  "craft": {
-    "heading": "Je donne vie aux interfaces",
-    "subheading": "Les micro-animations ne sont pas décoratives — c'est ainsi qu'un bon logiciel communique. Une transition bien placée dit à l'utilisateur ce qui s'est passé, où regarder, et que quelqu'un s'est soucié des détails.",
-    "pillars": {
-      "guide": {
-        "title": "Guider l'attention",
-        "description": "Le mouvement attire le regard là où ça compte. Entrées, sorties et changements d'état deviennent évidents sans y penser."
+  "componentShowcase": {
+    "heading": "Des composants, pas des captures",
+    "subheading": "Des éléments d'interface que je construis à la main. Rien n'est un enregistrement — servez-vous.",
+    "reset": "Relancer la démo",
+    "cells": {
+      "chat": {
+        "title": "Chat",
+        "description": "Écrivez, envoyez, regardez-le réfléchir. Entrée des messages, indicateur de saisie et réponse qui se pose.",
+        "placeholder": "Pose-moi une question…",
+        "send": "Envoyer",
+        "suggestions": [
+          "Tu es disponible ?",
+          "Tu construis quoi ?",
+          "Ce chat est réel ?"
+        ],
+        "answers": [
+          "Oui — je prends des projets en freelance à côté de mon poste chez SFEIR. La page contact est à un clic.",
+          "Des interfaces web et mobile en React, React Native et TypeScript — dont le travail d'animation que tu regardes.",
+          "Non, je suis scripté. Baptiste a écrit mes réponses à la main, sans doute plus d'efforts qu'un appel d'API."
+        ],
+        "fallbacks": [
+          "Je ne connais qu'une poignée de réponses — essaie une suggestion.",
+          "Baptiste m'a fait tout petit. Demande-lui directement via la page contact.",
+          "Là, ça me dépasse. Le vrai Baptiste répond plus vite que tu ne le crois."
+        ]
       },
-      "delight": {
-        "title": "Créer du plaisir",
-        "description": "Un ressort subtil, une apparition décalée — de petites touches qui rendent une interface vivante plutôt que statique."
-      },
-      "trust": {
-        "title": "Inspirer confiance",
-        "description": "Un retour visuel fluide à chaque interaction signale la qualité. Les utilisateurs remarquent quand un logiciel est soigné."
+      "call": {
+        "title": "Appel",
+        "description": "Un faux appel entrant, décroché pour de vrai — accède à ta caméra et affiche ton flux en direct.",
+        "caller": "Un développeur incroyable",
+        "ringing": "Appel entrant…",
+        "accept": "Accepter",
+        "decline": "Refuser",
+        "end": "Raccrocher",
+        "denied": "Accès caméra refusé",
+        "ended": "Appel terminé"
       }
     }
-  },
-  "animationShowcase": {
-    "heading": "Qu'est-ce qui rend un composant agréable ?",
-    "subheading": "Ce n'est pas seulement ce qu'il fait. C'est comment il le fait.",
-    "without": {
-      "label": "Sans",
-      "description": "Les éléments apparaissent et disparaissent instantanément. Pas d'indices spatiaux, pas de transition. Ça marche — mais c'est mécanique."
-    },
-    "with": {
-      "label": "Avec intention",
-      "description": "Physique de ressort, apparitions décalées, mouvement spatial. Le même composant — mais il prend vie."
-    },
-    "notification": {
-      "title": "Paiement confirmé",
-      "description": "Votre commande #4821 a été traitée."
-    },
-    "punchline": "Quand les animations sont justes, <strong>les utilisateurs se sentent considérés.</strong>"
   }
 }

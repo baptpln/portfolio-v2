@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { Briefcase, Calendar, CheckCircle2 } from "lucide-react";
+import { Briefcase, Calendar, CheckCircle } from "@phosphor-icons/react";
 
 export function ExperienceSection() {
     const { t } = useTranslation();
@@ -90,7 +90,7 @@ function ExperienceCard({ expKey, index }: { expKey: string; index: number }) {
                         <ul className="space-y-2 pt-2">
                             {(achievements as string[]).map((achievement: string, i: number) => (
                                 <li key={i} className="flex gap-2 text-sm">
-                                    <CheckCircle2 size={16} className="text-primary mt-1 shrink-0" />
+                                    <CheckCircle size={16} className="text-primary mt-1 shrink-0" />
                                     <span>{achievement}</span>
                                 </li>
                             ))}

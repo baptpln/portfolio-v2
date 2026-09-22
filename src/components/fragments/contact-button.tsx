@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import * as Dialog from "@radix-ui/react-dialog";
 import { useWebHaptics } from "web-haptics/react";
 import { useTranslation } from "react-i18next";
-import { X, Send } from "lucide-react";
+import { X, PaperPlaneTilt as Send } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { MatrixDisplay } from "./matrix/matrix-display";

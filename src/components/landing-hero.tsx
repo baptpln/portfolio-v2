@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 import { useTranslation } from "react-i18next";
-import { Construction } from "lucide-react";
+import { Barricade as Construction } from "@phosphor-icons/react";
 
 export function LandingHero() {
   const { t } = useTranslation();

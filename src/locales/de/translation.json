@@ -161,43 +161,49 @@
     "description": "Ich baue hier gerade an etwas Großartigem. Bleib dran für weitere Updates!"
   },
   "trustedBy": {
-    "label": "Vertraut von",
+    "label": "Zusammengearbeitet mit",
     "subtitle": "Als Berater bei SFEIR",
-    "teacher": "Dozent"
+    "teacher": "Dozent",
+    "via": "über SFEIR",
+    "teaching": "Ich unterrichte an"
   },
-  "craft": {
-    "heading": "Ich erwecke Interfaces zum Leben",
-    "subheading": "Mikro-Animationen sind keine Dekoration — sie sind die Sprache guter Software. Ein gut platzierter Übergang sagt dem Nutzer, was passiert ist, wohin er schauen soll, und dass sich jemand um die Details gekümmert hat.",
-    "pillars": {
-      "guide": {
-        "title": "Aufmerksamkeit lenken",
-        "description": "Bewegung zieht den Blick dorthin, wo es zählt. Ein- und Austritte sowie Zustandsänderungen werden intuitiv verständlich."
+  "componentShowcase": {
+    "heading": "Komponenten, keine Screenshots",
+    "subheading": "Von Hand gebaute Interface-Bausteine. Nichts davon ist eine Aufnahme — probier es aus.",
+    "reset": "Demo neu starten",
+    "cells": {
+      "chat": {
+        "title": "Chat",
+        "description": "Tippen, senden, beim Nachdenken zusehen. Nachrichten-Einblendung, Tippanzeige und eine Antwort, die sitzt.",
+        "placeholder": "Frag mich etwas…",
+        "send": "Senden",
+        "suggestions": [
+          "Bist du verfügbar?",
+          "Was baust du?",
+          "Ist dieser Chat echt?"
+        ],
+        "answers": [
+          "Ja — ich nehme neben meiner Arbeit bei SFEIR Freelance-Projekte an. Die Kontaktseite ist einen Klick entfernt.",
+          "Web- und Mobile-Oberflächen mit React, React Native und TypeScript — samt der Animationsarbeit, die du siehst.",
+          "Nein, ich bin geskriptet. Baptiste hat meine Antworten von Hand geschrieben — mehr Aufwand als ein API-Aufruf."
+        ],
+        "fallbacks": [
+          "Ich kenne nur eine Handvoll Antworten — probier einen Vorschlag.",
+          "Baptiste hat mich klein gehalten. Frag ihn direkt über die Kontaktseite.",
+          "Das übersteigt mich. Der echte Baptiste antwortet schneller, als du denkst."
+        ]
       },
-      "delight": {
-        "title": "Freude erzeugen",
-        "description": "Eine subtile Feder, eine gestaffelte Einblendung — kleine Details, die ein Interface lebendig statt statisch wirken lassen."
-      },
-      "trust": {
-        "title": "Vertrauen aufbauen",
-        "description": "Flüssiges Feedback bei jeder Interaktion signalisiert Qualität. Nutzer bemerken, wenn Software durchdacht ist."
+      "call": {
+        "title": "Anruf",
+        "description": "Ein fiktiver eingehender Anruf, echt entgegengenommen — fragt die Kamera an und zeigt dein Live-Bild.",
+        "caller": "Ein fantastischer Entwickler",
+        "ringing": "Eingehender Anruf…",
+        "accept": "Annehmen",
+        "decline": "Ablehnen",
+        "end": "Auflegen",
+        "denied": "Kamerazugriff verweigert",
+        "ended": "Anruf beendet"
       }
     }
-  },
-  "animationShowcase": {
-    "heading": "Was macht eine Komponente angenehm?",
-    "subheading": "Es geht nicht nur darum, was sie tut. Sondern wie sie es tut.",
-    "without": {
-      "label": "Ohne",
-      "description": "Elemente erscheinen und verschwinden sofort. Keine räumlichen Hinweise, kein Easing. Es funktioniert — aber es fühlt sich mechanisch an."
-    },
-    "with": {
-      "label": "Mit Intention",
-      "description": "Federphysik, gestaffelte Einblendungen, räumliche Bewegung. Dieselbe Komponente — aber sie fühlt sich lebendig an."
-    },
-    "notification": {
-      "title": "Zahlung bestätigt",
-      "description": "Ihre Bestellung #4821 wurde bearbeitet."
-    },
-    "punchline": "Wenn Animationen stimmig sind, <strong>fühlen sich Nutzer wertgeschätzt.</strong>"
   }
 }

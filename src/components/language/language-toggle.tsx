@@ -1,4 +1,4 @@
-import { Globe } from "lucide-react";
+import { Globe } from "@phosphor-icons/react";
 import { useTranslation } from "react-i18next";
 import { cn } from "@/lib/utils";
 import { useState, type FC } from "react";

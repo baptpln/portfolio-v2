@@ -2,7 +2,7 @@ import { type FC } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft } from "@phosphor-icons/react";
 
 export const languages = [
   { code: "en", name: "language.english", flag: "🇺🇸" },
