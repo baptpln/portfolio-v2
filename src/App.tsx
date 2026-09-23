@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { IconProvider } from "@/components/icon-provider";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { Navbar } from "@/components/fragments/navbar";
 import { Home } from "@/pages/Home";
@@ -43,11 +44,13 @@ function AppContent() {
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <Router>
-        <AppContent />
-      </Router>
-    </ThemeProvider>
+    <IconProvider>
+      <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+        <Router>
+          <AppContent />
+        </Router>
+      </ThemeProvider>
+    </IconProvider>
   );
 }
 

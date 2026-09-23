@@ -24,7 +24,13 @@ export const LanguageSettings: FC<LanguageSettingsProps> = ({ onBack }) => {
 
   return (
     <div className="flex items-center gap-2">
-      <Button variant="ghost" size="sm" onClick={onBack} className="rounded-xl">
+      <Button
+        variant="ghost"
+        size="sm"
+        onClick={onBack}
+        className="rounded-xl"
+        aria-label={t("language.back")}
+      >
         <ArrowLeft className="h-4 w-4" />
       </Button>
 

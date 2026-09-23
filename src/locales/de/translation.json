@@ -12,6 +12,7 @@
   },
   "language": {
     "toggle": "Sprache ändern",
+    "back": "Zurück",
     "english": "English",
     "french": "Français",
     "german": "Deutsch"
@@ -172,8 +173,27 @@
     "subheading": "Von Hand gebaute Interface-Bausteine. Nichts davon ist eine Aufnahme — probier es aus.",
     "reset": "Demo neu starten",
     "cells": {
+      "hud": {
+        "description": "Echte Geolokalisierung, Live-Wetter — eine dichte Anzeige, die in Echtzeit läuft, keine Fake-Daten.",
+        "timezone": "ZEITZONE",
+        "localTime": "ORTSZEIT",
+        "language": "SPRACHE",
+        "platform": "PLATTFORM",
+        "screen": "BILDSCHIRM",
+        "cores": "KERNE",
+        "gpu": "GPU",
+        "storage": "SPEICHER",
+        "coordinates": "KOORDINATEN",
+        "condition": "WETTERLAGE",
+        "tempWind": "TEMP / WIND",
+        "idlePrompt": "Standortzugriff ergänzt die Anzeige um Live-Wetter",
+        "getReadout": "Anzeige abrufen",
+        "acquiring": "Signal wird erfasst…",
+        "denied": "Standortzugriff verweigert",
+        "signalLost": "Signal verloren",
+        "retry": "Erneut versuchen"
+      },
       "chat": {
-        "title": "Chat",
         "description": "Tippen, senden, beim Nachdenken zusehen. Nachrichten-Einblendung, Tippanzeige und eine Antwort, die sitzt.",
         "placeholder": "Frag mich etwas…",
         "send": "Senden",
@@ -194,15 +214,16 @@
         ]
       },
       "call": {
-        "title": "Anruf",
         "description": "Ein fiktiver eingehender Anruf, echt entgegengenommen — fragt die Kamera an und zeigt dein Live-Bild.",
-        "caller": "Ein fantastischer Entwickler",
-        "ringing": "Eingehender Anruf…",
+        "ringing": "{{name}} ruft an…",
+        "connecting": "Verbindung mit {{name}}…",
         "accept": "Annehmen",
         "decline": "Ablehnen",
         "end": "Auflegen",
         "denied": "Kamerazugriff verweigert",
-        "ended": "Anruf beendet"
+        "ended": "Anruf beendet",
+        "recents": "Letzte Anrufe",
+        "callBack": "Zurückrufen"
       }
     }
   }

@@ -12,6 +12,7 @@
   },
   "language": {
     "toggle": "Changer la langue",
+    "back": "Retour",
     "english": "English",
     "french": "Français",
     "german": "Deutsch"
@@ -172,8 +173,27 @@
     "subheading": "Des éléments d'interface que je construis à la main. Rien n'est un enregistrement — servez-vous.",
     "reset": "Relancer la démo",
     "cells": {
+      "hud": {
+        "description": "Géolocalisation réelle, météo en direct — un relevé dense qui tourne en temps réel, sans données factices.",
+        "timezone": "FUSEAU HORAIRE",
+        "localTime": "HEURE LOCALE",
+        "language": "LANGUE",
+        "platform": "PLATEFORME",
+        "screen": "ÉCRAN",
+        "cores": "CŒURS",
+        "gpu": "GPU",
+        "storage": "STOCKAGE",
+        "coordinates": "COORDONNÉES",
+        "condition": "CONDITIONS",
+        "tempWind": "TEMP / VENT",
+        "idlePrompt": "L'accès à la position ajoute la météo en direct au relevé",
+        "getReadout": "Obtenir le relevé",
+        "acquiring": "Acquisition du signal…",
+        "denied": "Accès à la position refusé",
+        "signalLost": "Signal perdu",
+        "retry": "Réessayer"
+      },
       "chat": {
-        "title": "Chat",
         "description": "Écrivez, envoyez, regardez-le réfléchir. Entrée des messages, indicateur de saisie et réponse qui se pose.",
         "placeholder": "Pose-moi une question…",
         "send": "Envoyer",
@@ -194,15 +214,16 @@
         ]
       },
       "call": {
-        "title": "Appel",
         "description": "Un faux appel entrant, décroché pour de vrai — accède à ta caméra et affiche ton flux en direct.",
-        "caller": "Un développeur incroyable",
-        "ringing": "Appel entrant…",
+        "ringing": "{{name}} vous appelle…",
+        "connecting": "Connexion avec {{name}}…",
         "accept": "Accepter",
         "decline": "Refuser",
         "end": "Raccrocher",
         "denied": "Accès caméra refusé",
-        "ended": "Appel terminé"
+        "ended": "Appel terminé",
+        "recents": "Récents",
+        "callBack": "Rappeler"
       }
     }
   }

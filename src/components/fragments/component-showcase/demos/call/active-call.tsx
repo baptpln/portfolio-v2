@@ -4,14 +4,16 @@ import type { FC } from "react";
 import { useTranslation } from "react-i18next";
 import { CallerPane } from "./caller-pane";
 import { CameraPane } from "./camera-pane";
+import type { Contact } from "./types";
 import { Button } from "@/components/ui/button";
 
 interface ActiveCallProps {
+  contact: Contact;
   stream: MediaStream | null;
   onEnd: () => void;
 }
 
-export const ActiveCall: FC<ActiveCallProps> = ({ stream, onEnd }) => {
+export const ActiveCall: FC<ActiveCallProps> = ({ contact, stream, onEnd }) => {
   const { t } = useTranslation();
 
   return (
@@ -19,9 +21,9 @@ export const ActiveCall: FC<ActiveCallProps> = ({ stream, onEnd }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="relative flex h-full w-full"
+      className="relative h-full w-full"
     >
-      <CallerPane />
+      <CallerPane contact={contact} />
       <CameraPane stream={stream} />
 
       <Button

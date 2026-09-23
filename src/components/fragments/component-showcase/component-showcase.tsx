@@ -6,6 +6,8 @@ import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { CallDemo } from "./demos/call/call-demo";
 import { ChatDemo } from "./demos/chat/chat-demo";
+import { HudDemo } from "./demos/hud/hud-demo";
+import { Card } from "@/components/ui/card";
 
 interface Cell {
   key: string | null;
@@ -16,7 +18,7 @@ const cells: Cell[] = [
   { key: "chat", Demo: ChatDemo },
   { key: null },
   { key: "call", Demo: CallDemo },
-  { key: null },
+  { key: "hud", Demo: HudDemo },
 ];
 
 const MotionRefreshIcon = motion.create(ArrowsClockwiseIcon);
@@ -50,7 +52,9 @@ function DemoFrame({
   );
 }
 
-function ShowcaseCell({ cell }: { cell: Cell }) {
+const MotionCard = motion.create(Card);
+
+const ShowcaseCell = ({ cell }: { cell: Cell }) => {
   const { t } = useTranslation();
   const [demoKey, setDemoKey] = useState(0);
   const [visible, setVisible] = useState(true);
@@ -66,12 +70,12 @@ function ShowcaseCell({ cell }: { cell: Cell }) {
   };
 
   return (
-    <motion.div
+    <MotionCard
       initial={{ opacity: 0, y: 12 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.5 }}
-      className="flex flex-col bg-background"
+      className="flex flex-col p-0 gap-0 overflow-hidden bg-background"
     >
       <div className="relative flex aspect-[4/3] items-stretch justify-center overflow-hidden">
         {cell.Demo && (
@@ -86,14 +90,22 @@ function ShowcaseCell({ cell }: { cell: Cell }) {
       </div>
 
       {cell.key && (
-        <div className="flex flex-col gap-1.5 border-t border-border p-3">
-          <div className="flex items-center justify-between gap-2">
-            <h3 className="font-heading text-lg font-semibold leading-tight">
-              {t(`componentShowcase.cells.${cell.key}.title`)}
-            </h3>
+        <div className="relative flex flex-col gap-1.5 overflow-hidden border-t border-border p-3">
+          <div
+            className="pointer-events-none absolute inset-0 opacity-40"
+            style={{
+              backgroundImage:
+                "repeating-linear-gradient(45deg, var(--border) 0, var(--border) 1px, transparent 1px, transparent 8px)",
+            }}
+          />
+
+          <div className="relative flex items-center gap-3">
+            <p className="flex-1 text-xs leading-relaxed text-muted-foreground">
+              {t(`componentShowcase.cells.${cell.key}.description`)}
+            </p>
             <Button
               type="button"
-              variant="ghost"
+              variant="outline"
               size="icon-sm"
               onClick={handleReset}
               aria-label={t("componentShowcase.reset")}
@@ -106,16 +118,13 @@ function ShowcaseCell({ cell }: { cell: Cell }) {
               />
             </Button>
           </div>
-          <p className="text-sm leading-relaxed text-muted-foreground">
-            {t(`componentShowcase.cells.${cell.key}.description`)}
-          </p>
         </div>
       )}
-    </motion.div>
+    </MotionCard>
   );
-}
+};
 
-export function ComponentShowcase() {
+export const ComponentShowcase = () => {
   const { t } = useTranslation();
 
   return (
@@ -135,8 +144,8 @@ export function ComponentShowcase() {
         </p>
       </motion.div>
 
-      <div className="mx-auto w-full max-w-4xl overflow-hidden rounded-lg border border-border bg-border">
-        <div className="grid grid-cols-1 gap-px sm:grid-cols-2">
+      <div className="mx-auto w-full max-w-4xl">
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
           {cells.map((cell, i) => (
             <ShowcaseCell key={cell.key ?? `empty-${i}`} cell={cell} />
           ))}
@@ -144,4 +153,4 @@ export function ComponentShowcase() {
       </div>
     </section>
   );
-}
+};

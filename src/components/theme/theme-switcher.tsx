@@ -101,6 +101,7 @@ export const ThemeSwitcher: FC<{ className?: string }> = ({ className }) => {
           whileHover="hover"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
+          aria-label={t("theme.toggle")}
         >
           <AnimatePresence initial={false}>
             <motion.div
@@ -123,7 +124,6 @@ export const ThemeSwitcher: FC<{ className?: string }> = ({ className }) => {
                 className="flex items-center justify-center"
               >
                 <ThemeIcon theme={theme} />
-                <span className="sr-only">{t("theme.toggle")}</span>
               </motion.div>
             </motion.div>
           </AnimatePresence>

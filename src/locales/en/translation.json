@@ -12,6 +12,7 @@
   },
   "language": {
     "toggle": "Change language",
+    "back": "Back",
     "english": "English",
     "french": "Français",
     "german": "Deutsch"
@@ -172,8 +173,27 @@
     "subheading": "Interface pieces I build by hand. Nothing here is a recording — go on, use them.",
     "reset": "Restart demo",
     "cells": {
+      "hud": {
+        "description": "Real geolocation, live weather — a dense readout ticking in real time, no mock data.",
+        "timezone": "TIMEZONE",
+        "localTime": "LOCAL TIME",
+        "language": "LANGUAGE",
+        "platform": "PLATFORM",
+        "screen": "SCREEN",
+        "cores": "CORES",
+        "gpu": "GPU",
+        "storage": "STORAGE",
+        "coordinates": "COORDINATES",
+        "condition": "CONDITION",
+        "tempWind": "TEMP / WIND",
+        "idlePrompt": "Location access adds live weather to the readout",
+        "getReadout": "Get readout",
+        "acquiring": "Acquiring signal…",
+        "denied": "Location access denied",
+        "signalLost": "Signal lost",
+        "retry": "Retry"
+      },
       "chat": {
-        "title": "Chat",
         "description": "Type, send, watch it think. Message entrances, a typing indicator, and a reply that lands.",
         "placeholder": "Ask me something…",
         "send": "Send",
@@ -194,15 +214,16 @@
         ]
       },
       "call": {
-        "title": "Call",
         "description": "A fake incoming call, answered for real — grants camera access and shows your feed live.",
-        "caller": "A fantastic developer",
-        "ringing": "Incoming call…",
+        "ringing": "{{name}} is calling…",
+        "connecting": "Connecting with {{name}}…",
         "accept": "Accept",
         "decline": "Decline",
         "end": "End call",
         "denied": "Camera access denied",
-        "ended": "Call ended"
+        "ended": "Call ended",
+        "recents": "Recents",
+        "callBack": "Call back"
       }
     }
   }
