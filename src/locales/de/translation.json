@@ -173,6 +173,9 @@
     "subheading": "Von Hand gebaute Interface-Bausteine. Nichts davon ist eine Aufnahme — probier es aus.",
     "reset": "Demo neu starten",
     "cells": {
+      "isometric": {
+        "description": "Von Hand in Figma gezeichnet, für den Browser gebaut — dasselbe flache SVG, Stück für Stück enthüllt und dann in seine isometrische Form geschert."
+      },
       "hud": {
         "description": "Echte Geolokalisierung, Live-Wetter — eine dichte Anzeige, die in Echtzeit läuft, keine Fake-Daten.",
         "timezone": "ZEITZONE",

@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { useState, useEffect, type FC } from "react";
 import {
-  ArrowCounterClockwise as RotateCcw,
-  Pause,
-  Play,
+  ArrowCounterClockwiseIcon,
+  PauseIcon,
+  PlayIcon,
 } from "@phosphor-icons/react";
 import { IsometricItem } from "./isometric-item";
-import buttonsSvg from "@/assets/buttons.svg";
+import screenSvg from "@/assets/screen.svg";
 import keyboardSvg from "@/assets/keyboard.svg";
 import deepSvg from "@/assets/deep.svg";
 import pitSvg from "@/assets/pit.svg";
@@ -14,7 +14,7 @@ import baseSvg from "@/assets/base.svg";
 
 const ITEM_SIZE = 216;
 
-const LAYERS = [buttonsSvg, keyboardSvg, deepSvg, pitSvg, baseSvg];
+const LAYERS = [screenSvg, keyboardSvg, deepSvg, pitSvg, baseSvg];
 
 const SPRING = {
   enter: { type: "spring" as const, stiffness: 100, damping: 18 },
@@ -125,14 +125,14 @@ function Controls({
         onClick={onToggle}
         className="flex items-center gap-2 text-xs font-heading text-muted-foreground hover:text-foreground transition-colors px-3 py-1.5 rounded-lg border border-border hover:border-foreground/20"
       >
-        {playing ? <Pause size={12} /> : <Play size={12} />}
+        {playing ? <PauseIcon size={12} /> : <PlayIcon size={12} />}
         {playing ? "Pause" : "Play"}
       </button>
       <button
         onClick={onReset}
         className="flex items-center gap-2 text-xs font-heading text-muted-foreground hover:text-foreground transition-colors px-3 py-1.5 rounded-lg border border-border hover:border-foreground/20"
       >
-        <RotateCcw size={12} />
+        <ArrowCounterClockwiseIcon size={12} />
         Reset
       </button>
     </div>

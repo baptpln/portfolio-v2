@@ -8,6 +8,7 @@ import { CallDemo } from "./demos/call/call-demo";
 import { ChatDemo } from "./demos/chat/chat-demo";
 import { HudDemo } from "./demos/hud/hud-demo";
 import { Card } from "@/components/ui/card";
+import { IsometricBuild } from "@/components/isometric/isometric-build";
 
 interface Cell {
   key: string | null;
@@ -16,7 +17,7 @@ interface Cell {
 
 const cells: Cell[] = [
   { key: "chat", Demo: ChatDemo },
-  { key: null },
+  { key: "isometric", Demo: IsometricBuild },
   { key: "call", Demo: CallDemo },
   { key: "hud", Demo: HudDemo },
 ];

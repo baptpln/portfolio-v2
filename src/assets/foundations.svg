@@ -1,0 +1,73 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="99" height="99" fill="white" stroke="black"/>
+<rect x="4.5" y="5.5" width="90" height="90" rx="9.5" fill="#D9D9D9"/>
+<rect x="4.5" y="5.5" width="90" height="90" rx="9.5" stroke="black"/>
+<path d="M15 8.5H88C91.5899 8.5 94.5 11.4101 94.5 15V86C94.5 91.2467 90.2467 95.5 85 95.5H14C10.4101 95.5 7.5 92.5898 7.5 89V16C7.5 11.8579 10.8579 8.5 15 8.5Z" fill="black" stroke="black"/>
+<mask id="path-4-inside-1_917_1130" fill="white">
+<path d="M100 0H120V100H100V0Z"/>
+</mask>
+<path d="M100 0H120V100H100V0Z" fill="#D9D9D9"/>
+<path d="M120 0H121V-1H120V0ZM120 100V101H121V100H120ZM100 0V1H120V0V-1H100V0ZM120 0H119V100H120H121V0H120ZM120 100V99H100V100V101H120V100Z" fill="black" mask="url(#path-4-inside-1_917_1130)"/>
+<rect x="105" y="10.5" width="9" height="28" rx="4.5" stroke="black"/>
+<path d="M108 12.5C109.657 12.5 111 13.8431 111 15.5V37.5996C111 38.0967 110.597 38.5 110.1 38.5C107.283 38.4998 105 36.2167 105 33.4004V15.5C105 13.8431 106.343 12.5 108 12.5Z" fill="black" stroke="black"/>
+<circle cx="104.5" cy="56" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="104.25" cy="56.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="109.5" cy="56" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="109.25" cy="56.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="114.5" cy="56" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="114.25" cy="56.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="104.5" cy="51" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="104.25" cy="51.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="109.5" cy="51" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="109.25" cy="51.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="114.5" cy="51" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="114.25" cy="51.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="104.5" cy="61" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="104.25" cy="61.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="109.5" cy="61" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="109.25" cy="61.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="114.5" cy="61" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="114.25" cy="61.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="104.5" cy="66" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="104.25" cy="66.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="109.5" cy="66" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="109.25" cy="66.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="114.5" cy="66" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="114.25" cy="66.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="104.5" cy="71" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="104.25" cy="71.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="109.5" cy="71" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="109.25" cy="71.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="114.5" cy="71" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="114.25" cy="71.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="104.5" cy="76" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="104.25" cy="76.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="109.5" cy="76" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="109.25" cy="76.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="114.5" cy="76" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="114.25" cy="76.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="104.5" cy="81" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="104.25" cy="81.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="109.5" cy="81" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="109.25" cy="81.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="114.5" cy="81" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="114.25" cy="81.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="104.5" cy="86" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="104.25" cy="86.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="109.5" cy="86" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="109.25" cy="86.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="114.5" cy="86" r="1.9" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="114.25" cy="86.25" r="1.65" fill="black" stroke="black" stroke-width="0.2"/>
+<mask id="path-56-inside-2_917_1130" fill="white">
+<path d="M0 100H100V120H0V100Z"/>
+</mask>
+<path d="M0 100H100V120H0V100Z" fill="#D9D9D9"/>
+<path d="M0 120H-1V121H0V120ZM100 120V119H0V120V121H100V120ZM0 120H1V100H0H-1V120H0Z" fill="black" mask="url(#path-56-inside-2_917_1130)"/>
+<line x1="21" y1="109.75" x2="100" y2="109.75" stroke="black" stroke-width="0.5"/>
+<line x1="20.5" y1="100" x2="20.5" y2="119" stroke="black"/>
+<line x1="60.25" y1="110" x2="60.25" y2="119" stroke="black" stroke-width="0.5"/>
+<line x1="80.25" y1="100" x2="80.25" y2="110" stroke="black" stroke-width="0.5"/>
+<line x1="40.25" y1="100" x2="40.25" y2="110" stroke="black" stroke-width="0.5"/>
+<path d="M11.797 106.114C13.7432 106.823 14.7466 108.975 14.0383 110.921C13.6527 111.98 13.1656 113.54 12.2615 114.623C11.8152 115.158 11.2783 115.562 10.6161 115.732C9.95466 115.902 9.13649 115.847 8.11301 115.408C7.14965 114.995 6.57017 114.481 6.2387 113.928C5.90701 113.374 5.80797 112.754 5.85102 112.106C5.89428 111.455 6.08037 110.784 6.30731 110.139C6.42048 109.817 6.54323 109.504 6.66185 109.205C6.7798 108.907 6.89461 108.619 6.99057 108.356C7.6989 106.41 9.85087 105.406 11.797 106.114Z" fill="#DB783D" stroke="black" stroke-width="0.5"/>
+<circle cx="9.51465" cy="112.138" r="3.75" fill="#E17101" stroke="black" stroke-width="0.5"/>
+</svg>

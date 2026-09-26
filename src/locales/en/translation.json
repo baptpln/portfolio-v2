@@ -173,6 +173,9 @@
     "subheading": "Interface pieces I build by hand. Nothing here is a recording — go on, use them.",
     "reset": "Restart demo",
     "cells": {
+      "isometric": {
+        "description": "Hand-drawn in Figma, built for the browser — the same flat SVG revealed piece by piece, then sheared into its isometric form."
+      },
       "hud": {
         "description": "Real geolocation, live weather — a dense readout ticking in real time, no mock data.",
         "timezone": "TIMEZONE",

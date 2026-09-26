@@ -173,6 +173,9 @@
     "subheading": "Des éléments d'interface que je construis à la main. Rien n'est un enregistrement — servez-vous.",
     "reset": "Relancer la démo",
     "cells": {
+      "isometric": {
+        "description": "Dessiné à la main dans Figma, construit pour le navigateur — le même SVG plat révélé morceau par morceau, puis cisaillé jusqu'à sa forme isométrique."
+      },
       "hud": {
         "description": "Géolocalisation réelle, météo en direct — un relevé dense qui tourne en temps réel, sans données factices.",
         "timezone": "FUSEAU HORAIRE",
