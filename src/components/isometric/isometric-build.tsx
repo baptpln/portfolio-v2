@@ -1,5 +1,5 @@
 import { motion, useInView } from "framer-motion";
-import { useEffect, useRef, useState, type CSSProperties, type FC } from "react";
+import { useEffect, useId, useRef, useState, type CSSProperties, type FC } from "react";
 
 const SIZE = 220;
 
@@ -35,7 +35,8 @@ type TierName =
   | "screen"
   | "knob"
   | "dots"
-  | "tiles"
+  | "divider"
+  | "toggle"
   | "orangeKnob";
 
 const TIERS: TierName[] = [
@@ -45,7 +46,8 @@ const TIERS: TierName[] = [
   "screen",
   "knob",
   "dots",
-  "tiles",
+  "divider",
+  "toggle",
   "orangeKnob",
 ];
 
@@ -57,14 +59,15 @@ const TIMELINE = [
   { name: "screen", ms: 320, revealed: 4, shear: 0, flip: 0 },
   { name: "knob", ms: 320, revealed: 5, shear: 0, flip: 0 },
   { name: "dots", ms: 700, revealed: 6, shear: 0, flip: 0 },
-  { name: "tiles", ms: 320, revealed: 7, shear: 0, flip: 0 },
-  { name: "orangeKnob", ms: 320, revealed: 8, shear: 0, flip: 0 },
-  { name: "hold-flat", ms: 650, revealed: 8, shear: 0, flip: 0 },
-  { name: "shear", ms: 700, revealed: 8, shear: 1, flip: 0 },
-  { name: "flip", ms: 700, revealed: 8, shear: 1, flip: 1 },
-  { name: "hold-iso", ms: 1900, revealed: 8, shear: 1, flip: 1 },
-  { name: "unflip", ms: 700, revealed: 8, shear: 1, flip: 0 },
-  { name: "unshear", ms: 700, revealed: 8, shear: 0, flip: 0 },
+  { name: "divider", ms: 320, revealed: 7, shear: 0, flip: 0 },
+  { name: "toggle", ms: 320, revealed: 8, shear: 0, flip: 0 },
+  { name: "orangeKnob", ms: 320, revealed: 9, shear: 0, flip: 0 },
+  { name: "hold-flat", ms: 650, revealed: 9, shear: 0, flip: 0 },
+  { name: "shear", ms: 700, revealed: 9, shear: 1, flip: 0 },
+  { name: "flip", ms: 700, revealed: 9, shear: 1, flip: 1 },
+  { name: "hold-iso", ms: 1900, revealed: 9, shear: 1, flip: 1 },
+  { name: "unflip", ms: 700, revealed: 9, shear: 1, flip: 0 },
+  { name: "unshear", ms: 700, revealed: 9, shear: 0, flip: 0 },
   { name: "hide", ms: 450, revealed: 0, shear: 0, flip: 0 },
 ] as const;
 
@@ -115,6 +118,7 @@ function Tier({
 function FoundationsBuild({ step }: { step: Step }) {
   const sheared = step.shear === 1;
   const flipped = step.flip === 1;
+  const toggleClipId = useId();
 
   return (
     <motion.div
@@ -189,17 +193,25 @@ function FoundationsBuild({ step }: { step: Step }) {
             <rect x="0" y="0" width="100" height="20" fill="#D9D9D9" stroke="black" />
           </Tier>
 
-          <Tier step={step} tier="tiles">
-            <line x1="21" y1="9.75" x2="100" y2="9.75" stroke="black" strokeWidth="0.5" />
+          <Tier step={step} tier="divider">
             <line x1="20.5" y1="0" x2="20.5" y2="19" stroke="black" />
-            <line x1="60.25" y1="10" x2="60.25" y2="19" stroke="black" strokeWidth="0.5" />
-            <line x1="80.25" y1="0" x2="80.25" y2="10" stroke="black" strokeWidth="0.5" />
-            <line x1="40.25" y1="0" x2="40.25" y2="10" stroke="black" strokeWidth="0.5" />
+          </Tier>
+
+          <Tier step={step} tier="toggle">
+            <defs>
+              <clipPath id={toggleClipId}>
+                <rect x="22" y="1" width="77" height="17" fill="white" />
+              </clipPath>
+            </defs>
+            <g clipPath={`url(#${toggleClipId})`}>
+              <rect x="22.5" y="1.5" width="76" height="16" rx="1.5" fill="#D9D9D9" stroke="black" />
+              <rect x="24.5" y="2.5" width="73" height="13" rx="0.5" fill="black" stroke="black" />
+            </g>
           </Tier>
 
           <Tier step={step} tier="orangeKnob">
             <path
-              d="M11.797 6.114C13.7432 6.823 14.7466 8.975 14.0383 10.921C13.6527 11.98 13.1656 13.54 12.2615 14.623C11.8152 15.158 11.2783 15.562 10.6161 15.732C9.95466 15.902 9.13649 15.847 8.11301 15.408C7.14965 14.995 6.57017 14.481 6.2387 13.928C5.90701 13.374 5.80797 12.754 5.85102 12.106C5.89428 11.455 6.08037 10.784 6.30731 10.139C6.42048 9.817 6.54323 9.504 6.66185 9.205C6.7798 8.907 6.89461 8.619 6.99057 8.356C7.6989 6.41 9.85087 5.406 11.797 6.114Z"
+              d="M11.7966 6.127C13.7427 6.836 14.7468 8.987 14.0386 10.933C13.6531 11.992 13.1657 13.552 12.2618 14.635C11.8148 15.171 11.2781 15.573 10.6163 15.743C9.9551 15.912 9.1369 15.857 8.1133 15.418C7.1499 15.005 6.5701 14.492 6.2382 13.94C5.9067 13.386 5.8078 12.767 5.8515 12.118C5.8945 11.468 6.0802 10.797 6.3076 10.152C6.4201 9.831 6.5437 9.517 6.6616 9.218C6.78 8.919 6.8945 8.632 6.991 8.368C7.6993 6.421 9.8507 5.42 11.7966 6.127Z"
               fill="#DB783D"
               stroke="black"
               strokeWidth="0.5"

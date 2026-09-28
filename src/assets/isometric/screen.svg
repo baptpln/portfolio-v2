@@ -1,0 +1,78 @@
+<svg width="115" height="115" viewBox="0 0 115 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.500244" y="0.500488" width="99" height="99" fill="white" stroke="black"/>
+<rect x="4.50024" y="5.50049" width="90" height="90" rx="9.5" fill="#D9D9D9"/>
+<rect x="4.50024" y="5.50049" width="90" height="90" rx="9.5" stroke="black"/>
+<path d="M15.0002 8.50049H88.0002C91.5901 8.50049 94.5002 11.4106 94.5002 15.0005V86.0005C94.5002 91.2472 90.2469 95.5005 85.0002 95.5005H14.0002C10.4104 95.5005 7.50024 92.5903 7.50024 89.0005V16.0005C7.50024 11.8584 10.8581 8.50049 15.0002 8.50049Z" fill="black" stroke="black"/>
+<mask id="path-4-inside-1_1123_3202" fill="white">
+<path d="M100 0L114.142 14.1421V114.142L100 100V0Z"/>
+</mask>
+<path d="M100 0L114.142 14.1421V114.142L100 100V0Z" fill="#D9D9D9"/>
+<path d="M114.142 14.1421L114.849 14.8492V13.8492L114.142 13.1421V14.1421ZM114.142 114.142V115.142L114.849 115.849V114.849L114.142 114.142ZM100 0V1L114.142 15.1421V14.1421V13.1421L100 -1V0ZM114.142 14.1421L113.435 13.435V113.435L114.142 114.142L114.849 114.849V14.8492L114.142 14.1421ZM114.142 114.142V113.142L100 99V100V101L114.142 115.142V114.142Z" fill="black" mask="url(#path-4-inside-1_1123_3202)"/>
+<rect x="0.353553" y="0.853553" width="9" height="28" rx="4.5" transform="matrix(0.707107 0.707107 0 1 103.286 12.9321)" stroke="black"/>
+<path d="M105.657 18.157C106.829 19.3286 107.778 21.6215 107.778 23.2783V45.3779C107.778 45.875 107.493 45.9931 107.142 45.6417C105.15 43.65 103.536 39.7526 103.536 36.9361V19.0357C103.536 17.3788 104.485 16.9854 105.657 18.157Z" fill="black" stroke="black"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 55.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 56.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.304 59.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.304 59.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 62.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 63.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 50.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 51.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.304 54.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.304 54.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 57.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 58.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 60.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 61.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.304 64.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.304 64.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 67.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 68.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 65.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 66.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.304 69.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.304 69.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 72.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 73.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 70.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 71.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.304 74.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.304 74.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 77.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 78.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 75.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 76.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.304 79.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.304 79.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 82.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 83.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 80.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 81.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.304 84.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.304 84.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 87.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 88.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 101.768 85.7676)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 101.768 86.2676)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 105.304 89.3032)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 105.304 89.8032)" fill="black" stroke="black" stroke-width="0.2"/>
+<circle cx="2" cy="2" r="1.9" transform="matrix(0.707107 0.707107 0 1 108.839 92.8389)" fill="#969696" stroke="black" stroke-width="0.2"/>
+<circle cx="1.75" cy="1.75" r="1.65" transform="matrix(0.707107 0.707107 0 1 108.839 93.3389)" fill="black" stroke="black" stroke-width="0.2"/>
+<mask id="path-56-inside-2_1123_3202" fill="white">
+<path d="M0 100H100L114.142 114.143H14.1421L0 100Z"/>
+</mask>
+<path d="M0 100H100L114.142 114.143H14.1421L0 100Z" fill="#D9D9D9"/>
+<path d="M14.1421 114.143H13.1421L13.8492 114.85H14.8492L14.1421 114.143ZM114.142 114.143L113.435 113.436H13.435L14.1421 114.143L14.8492 114.85H114.849L114.142 114.143ZM14.1421 114.143H15.1421L1 100H0H-1L13.1421 114.143H14.1421Z" fill="black" mask="url(#path-56-inside-2_1123_3202)"/>
+<line y1="-0.5" x2="19" y2="-0.5" transform="matrix(0.707107 0.707107 -1 0 20 100)" stroke="black"/>
+<path d="M16.1206 104.324C18.5677 104.825 21.0928 106.346 21.7606 107.722C22.1241 108.471 22.7397 109.574 22.6018 110.34C22.5338 110.719 22.2821 111.004 21.7403 111.124C21.1991 111.244 20.3419 111.205 19.0083 110.895C17.7529 110.603 16.8101 110.24 16.0872 109.849C15.3637 109.457 14.8268 109.019 14.4115 108.56C13.9945 108.1 13.7062 107.626 13.4766 107.169C13.3621 106.942 13.2637 106.72 13.1706 106.509C13.078 106.298 12.9895 106.095 12.899 105.908C12.2313 104.532 13.6737 103.823 16.1206 104.324Z" fill="#DB783D" stroke="black" stroke-width="0.5"/>
+<circle cx="4" cy="4" r="3.75" transform="matrix(1 0 0.707107 0.707107 11.2695 105.755)" fill="#E17101" stroke="black" stroke-width="0.5"/>
+<g clip-path="url(#clip0_1123_3202)">
+<rect x="0.853553" y="0.353553" width="76" height="16" rx="1.5" transform="matrix(1 0 0.707107 0.707107 22.4573 100.811)" fill="#D9D9D9" stroke="black"/>
+<rect x="0.853553" y="0.353553" width="73" height="13" rx="0.5" transform="matrix(1 0 0.707107 0.707107 25.1643 101.518)" fill="black" stroke="black"/>
+</g>
+<defs>
+<clipPath id="clip0_1123_3202">
+<rect width="77" height="17" fill="white" transform="matrix(1 0 0.707107 0.707107 22.7073 100.708)"/>
+</clipPath>
+</defs>
+</svg>

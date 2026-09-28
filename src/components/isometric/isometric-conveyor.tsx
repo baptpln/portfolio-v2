@@ -6,15 +6,15 @@ import {
   PlayIcon,
 } from "@phosphor-icons/react";
 import { IsometricItem } from "./isometric-item";
-import screenSvg from "@/assets/screen.svg";
-import keyboardSvg from "@/assets/keyboard.svg";
-import deepSvg from "@/assets/deep.svg";
-import pitSvg from "@/assets/pit.svg";
-import baseSvg from "@/assets/base.svg";
+import screenSvg from "@/assets/isometric/screen.svg";
+import keyboardSvg from "@/assets/isometric/keyboard.svg";
+import deepSvg from "@/assets/isometric/deep.svg";
+import pitSvg from "@/assets/isometric/pit.svg";
+import togglesSvg from "@/assets/isometric/toggles.svg";
 
 const ITEM_SIZE = 216;
 
-const LAYERS = [screenSvg, keyboardSvg, deepSvg, pitSvg, baseSvg];
+const LAYERS = [screenSvg, keyboardSvg, deepSvg, pitSvg, togglesSvg];
 
 const SPRING = {
   enter: { type: "spring" as const, stiffness: 100, damping: 18 },
